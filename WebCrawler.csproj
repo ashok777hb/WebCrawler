@@ -67,6 +67,9 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="Demo-Binaries\CSharpCrawler.exe.config" />
+    <None Include="Demo-Binaries\CSharpCrawler.vshost.exe.config" />
+    <None Include="Demo-Binaries\CSharpCrawler.vshost.exe.manifest" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="SHDocVw">
@@ -89,6 +92,13 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Demo-Binaries\CSharpCrawler.exe" />
+    <Content Include="Demo-Binaries\CSharpCrawler.pdb" />
+    <Content Include="Demo-Binaries\CSharpCrawler.vshost.exe" />
+    <Content Include="Demo-Binaries\Interop.SHDocVw.dll" />
+    <Content Include="Demo-Binaries\sitemap.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
